@@ -76,9 +76,7 @@ const updateCurrency = async (req, res) => {
     }
 };
 
-// ==============================
-// Get Live Exchange Rates
-// ==============================
+
 
 const getRates = async (req, res) => {
 
