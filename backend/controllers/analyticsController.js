@@ -184,9 +184,6 @@ const getCategoryAnalytics = async (req, res) => {
 
 };
 
-// ==============================
-// Monthly Expense Bar Chart
-// ==============================
 
 const getMonthlyExpense = async (req, res) => {
 
