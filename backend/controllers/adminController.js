@@ -2,9 +2,6 @@ const User = require("../models/User");
 const Income = require("../models/Income");
 const Expense = require("../models/Expense");
 
-// ====================================
-// Dashboard Statistics
-// ====================================
 const getDashboard = async (req, res) => {
     try {
 
@@ -52,9 +49,7 @@ const getDashboard = async (req, res) => {
     }
 };
 
-// ====================================
-// Get All Users
-// ====================================
+
 const getUsers = async (req, res) => {
 
     try {
@@ -73,9 +68,6 @@ const getUsers = async (req, res) => {
 
 };
 
-// ====================================
-// Delete User
-// ====================================
 const deleteUser = async (req, res) => {
 
     try {
