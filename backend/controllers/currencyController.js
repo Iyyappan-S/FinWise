@@ -1,9 +1,7 @@
 const User = require("../models/User");
 const { getExchangeRates } = require("../utils/currencyService");
 
-// ==============================
-// Get Current Currency
-// ==============================
+
 const getCurrency = async (req, res) => {
     try {
 
@@ -28,9 +26,7 @@ const getCurrency = async (req, res) => {
     }
 };
 
-// ==============================
-// Update Currency
-// ==============================
+
 const updateCurrency = async (req, res) => {
     try {
 
