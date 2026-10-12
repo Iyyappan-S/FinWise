@@ -24,7 +24,7 @@ const getDashboard = async (req, res) => {
                 }
             }
         ]);
-
+ 
         res.json({
             totalUsers,
             totalIncome:
