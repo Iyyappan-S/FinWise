@@ -3,9 +3,7 @@ const Expense = require("../models/Expense");
 const mongoose = require("mongoose");
 const convertForUser = require("../utils/userCurrency");
 
-// ==============================
-// Monthly Income vs Expense
-// ==============================
+
 
 const getMonthlyAnalytics = async (req, res) => {
 
@@ -118,9 +116,6 @@ const getMonthlyAnalytics = async (req, res) => {
 
 };
 
-// ==============================
-// Expense Category Analytics
-// ==============================
 
 const getCategoryAnalytics = async (req, res) => {
 
