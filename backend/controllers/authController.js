@@ -20,7 +20,7 @@ exports.register = async (req, res) => {
       name,
       email,
       password: hashedPassword,
-      role: "user", // Default role is "user"
+      role: "user", 
     });
 
     res.status(201).json({
