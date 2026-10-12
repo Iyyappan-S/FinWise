@@ -9,7 +9,7 @@ const chatWithAI = async (req, res) => {
                 message: "Message is required"
             });
         }
-
+ 
         const result = await model.generateContent(message);
 
         const response = result.response.text();
